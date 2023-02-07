@@ -18,7 +18,7 @@ def uniquePaths(m,n):
     uniquePaths=1
     for i in range(n,m+n-1):
         uniquePaths *= i
-        uniquePaths /= (i - n + 1); 
+        uniquePaths /= (i - n + 1)
     return uniquePaths
 
 m=int(input("Enter the no. of Row:"))
